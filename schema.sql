@@ -11,7 +11,7 @@ CREATE TABLE department(
    PRIMARY KEY (id)
 );
 
-CREATE TABLE role(
+CREATE TABLE role (
 
     id INTEGER(11) AUTO_INCREMENT NOT NULL,
     title VARCHAR(30) NOT NULL,
@@ -32,7 +32,7 @@ CREATE TABLE employee (
 
 VALUES ('Sales');
 INSERT INTO department (name)
-VALUES ('Engineer');
+VALUES ('Engineering');
 INSERT INTO department (name)
 VALUES ('Finanace');
 INSERT INTO department (name)
